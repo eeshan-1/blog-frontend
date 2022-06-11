@@ -15,7 +15,7 @@ const App = () => {
     <div className="container">
 
       <Topbar />
-      <h1 className='heading_style'> Blogger</h1>
+      {/* <h1 className='heading_style'> Blogger</h1> */}
       <Routes> 
         <Route path='/' exact element={<Home />}/>
         <Route path='/blog/:id' element={<Blog />}/>
